@@ -26,5 +26,15 @@ namespace PresentacionTienda.Controllers
 
             return View();
         }
+
+        public ActionResult PaginaTest()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+
+        
     }
 }
