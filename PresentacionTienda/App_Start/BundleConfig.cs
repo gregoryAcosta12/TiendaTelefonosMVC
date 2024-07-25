@@ -1,4 +1,6 @@
-﻿using System.Web;
+﻿using System.Data;
+using System;
+using System.Web;
 using System.Web.Optimization;
 
 namespace PresentacionTienda
@@ -13,12 +15,12 @@ namespace PresentacionTienda
 
             bundles.Add(new ScriptBundle("~/bundles/complementos").Include(
                     "~/Scripts/scripts.js",
-            "~/Scripts/fontawesome/all.min.js"));
+            "~/Scripts/fontawesome/all.min.js"
+              
+              
+            ));
 
-
-
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery.validate*"));
+            
 
 
             // Utilice la versión de desarrollo de Modernizr para desarrollar y obtener información sobre los formularios.  De esta manera estará
